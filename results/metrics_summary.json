@@ -1,0 +1,162 @@
+{
+  "method": "Bicubic Interpolation Baseline (4x)",
+  "scale_factor": 4,
+  "input_resolution": "64x64",
+  "target_resolution": "256x256",
+  "total_test_samples": 210,
+  "overall_metrics": {
+    "mean_psnr_db": 25.3923,
+    "std_psnr_db": 3.8536,
+    "mean_ssim": 0.6843,
+    "std_ssim": 0.1427
+  },
+  "per_class_metrics": {
+    "agricultural": {
+      "count": 10,
+      "mean_psnr": 23.6841,
+      "std_psnr": 2.5948,
+      "mean_ssim": 0.328,
+      "std_ssim": 0.1968
+    },
+    "airplane": {
+      "count": 10,
+      "mean_psnr": 24.4436,
+      "std_psnr": 1.38,
+      "mean_ssim": 0.6784,
+      "std_ssim": 0.0498
+    },
+    "baseballdiamond": {
+      "count": 10,
+      "mean_psnr": 30.8785,
+      "std_psnr": 3.3703,
+      "mean_ssim": 0.8094,
+      "std_ssim": 0.0791
+    },
+    "beach": {
+      "count": 10,
+      "mean_psnr": 31.5787,
+      "std_psnr": 2.7418,
+      "mean_ssim": 0.823,
+      "std_ssim": 0.0964
+    },
+    "buildings": {
+      "count": 10,
+      "mean_psnr": 24.3437,
+      "std_psnr": 2.2613,
+      "mean_ssim": 0.7475,
+      "std_ssim": 0.0625
+    },
+    "chaparral": {
+      "count": 10,
+      "mean_psnr": 23.6901,
+      "std_psnr": 2.4471,
+      "mean_ssim": 0.6448,
+      "std_ssim": 0.1591
+    },
+    "denseresidential": {
+      "count": 10,
+      "mean_psnr": 24.7072,
+      "std_psnr": 1.8062,
+      "mean_ssim": 0.7396,
+      "std_ssim": 0.0566
+    },
+    "forest": {
+      "count": 10,
+      "mean_psnr": 25.6361,
+      "std_psnr": 3.2108,
+      "mean_ssim": 0.5925,
+      "std_ssim": 0.1192
+    },
+    "freeway": {
+      "count": 10,
+      "mean_psnr": 25.1587,
+      "std_psnr": 2.2707,
+      "mean_ssim": 0.6636,
+      "std_ssim": 0.136
+    },
+    "golfcourse": {
+      "count": 10,
+      "mean_psnr": 28.3612,
+      "std_psnr": 2.5453,
+      "mean_ssim": 0.7068,
+      "std_ssim": 0.0844
+    },
+    "harbor": {
+      "count": 10,
+      "mean_psnr": 21.6191,
+      "std_psnr": 1.8488,
+      "mean_ssim": 0.7116,
+      "std_ssim": 0.0787
+    },
+    "intersection": {
+      "count": 10,
+      "mean_psnr": 25.3243,
+      "std_psnr": 3.3372,
+      "mean_ssim": 0.7189,
+      "std_ssim": 0.1075
+    },
+    "mediumresidential": {
+      "count": 10,
+      "mean_psnr": 23.039,
+      "std_psnr": 1.9667,
+      "mean_ssim": 0.6597,
+      "std_ssim": 0.0648
+    },
+    "mobilehomepark": {
+      "count": 10,
+      "mean_psnr": 24.495,
+      "std_psnr": 1.3729,
+      "mean_ssim": 0.7709,
+      "std_ssim": 0.0386
+    },
+    "overpass": {
+      "count": 10,
+      "mean_psnr": 22.8246,
+      "std_psnr": 1.6269,
+      "mean_ssim": 0.628,
+      "std_ssim": 0.0555
+    },
+    "parkinglot": {
+      "count": 10,
+      "mean_psnr": 20.6564,
+      "std_psnr": 3.2628,
+      "mean_ssim": 0.6339,
+      "std_ssim": 0.1061
+    },
+    "river": {
+      "count": 10,
+      "mean_psnr": 26.0836,
+      "std_psnr": 2.331,
+      "mean_ssim": 0.6723,
+      "std_ssim": 0.0838
+    },
+    "runway": {
+      "count": 10,
+      "mean_psnr": 26.376,
+      "std_psnr": 2.8405,
+      "mean_ssim": 0.7227,
+      "std_ssim": 0.0459
+    },
+    "sparseresidential": {
+      "count": 10,
+      "mean_psnr": 27.5947,
+      "std_psnr": 3.6552,
+      "mean_ssim": 0.6958,
+      "std_ssim": 0.1518
+    },
+    "storagetanks": {
+      "count": 10,
+      "mean_psnr": 26.1485,
+      "std_psnr": 6.3658,
+      "mean_ssim": 0.7041,
+      "std_ssim": 0.1504
+    },
+    "tenniscourt": {
+      "count": 10,
+      "mean_psnr": 26.595,
+      "std_psnr": 1.8838,
+      "mean_ssim": 0.7179,
+      "std_ssim": 0.0863
+    }
+  }
+}

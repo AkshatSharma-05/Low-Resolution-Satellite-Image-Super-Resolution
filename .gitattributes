@@ -1,0 +1,30 @@
+# ==============================================================================
+# Git Attributes - Line Ending Normalization
+# ==============================================================================
+
+# Auto-detect text files and normalize line endings to LF in the repository
+* text=auto
+
+# Source code and configuration files (enforce LF)
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Windows command and shell scripts (require CRLF for native execution)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files (do not modify line endings)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.pth binary
+*.ico binary

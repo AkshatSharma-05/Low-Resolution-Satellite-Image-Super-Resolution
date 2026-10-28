@@ -1,0 +1,77 @@
+# ==============================================================================
+# Python Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Byte-compiled / Optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Testing, Coverage, and Tooling Caches
+# ==============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# Environment Variables & Local Secrets
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# IDEs and Editor Artifacts
+# ==============================================================================
+.vscode/
+!.vscode/settings.json.example
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ==============================================================================
+# Operating System Artifacts
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ==============================================================================
+# Dataset Rules
+# Raw aerial imagery (2,100 TIFF images, >400 MB) must be obtained separately.
+# Preserves data/splits/splits_manifest.json for reproducible train/val/test splits.
+# ==============================================================================
+data/raw/
+
+# ==============================================================================
+# Model Weights & Checkpoint Hygiene
+# Excludes large discriminator checkpoints (>149 MB, exceeding GitHub's 100 MB limit)
+# and intermediate resume states (*_latest.pth).
+#
+# Preserves essential generator models required for inference and demonstration:
+#   - checkpoints/generator_pretrain_best.pth (18 MB)
+#   - results/srgan_g2d1_experiment/srgan_g2d1_generator_best.pth (18 MB)
+# ==============================================================================
+*discriminator*.pth
+*_latest.pth
+
+# Intermediate experimental generator weights (preserving srgan_g2d1_generator_best.pth)
+results/srgan_stabilization/*.pth
+results/srgan_vgg01_experiment/*.pth
+results/srgan_g2d1_continuation/*.pth
